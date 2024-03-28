@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-dark">
+    <div class="container-fluid">
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <img src="https://img.freepik.com/premium-vector/globe-icon-with-gradient-purple-effect_197792-4858.jpg" alt="icon"><br> <br>
+
+
+            <div class="nav-address">
+              <button type="button" class="primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Address
+              </button>
+              <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="exampleModalLabel">Your Address</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <textarea rows="5" col="37" placeholder="address"></textarea>
+                      
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+               
+
+
+                
+            </div>
+            
+          <li class="nav-item">
+           <!-- Button trigger modal -->
+<button type="button" class="log" data-bs-toggle="modal" data-bs-target="#exampleModal"><a href="login.html">Login</a>
+
+</button>
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog1">
+<div class="modal-content1">
+  <div class="modal-header">
+    <h1 class="modal-title fs-5" id="exampleModalLabel">Login</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+  </div>
+  <div class="modal-body1">
+    <tr>
+      <td>
+        NAME:
+      </td>
+      <td>
+      <input type="text" placeholder="Name">
+      </td>
+    </tr>
+    <tr>
+      <td>Date Of Birth</td>
+      <td><input type="date"></td>
+    </tr>
+    <tr>
+      <td>Email</td>
+      <td><input type="email" placeholder="email"></td>
+    </tr>
+    <tr>
+      <td>Gender</td>
+      <td>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+      </td>
+
+
+    </tr>
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+</div>
+</div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="orders.html">orders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="returns.html">returns</a>
+          </li>
+         <div class="cart">
+            <a class="cartpage" href="cart.html">  your cart</a>
+            <i class="fa-solid fa-cart-shopping"></i>
+         </div>
+          
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search for Products" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+    <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/f3528e0c6093609b.jpg?q=50" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/1deff710923722d7.jpg?q=50" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://rukminim2.flixcart.com/fk-p-flap/844/140/image/bc6fdbdfc46ad9d6.jpg?q=50" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+<marquee class="scroll" scrollamount="12">Grab the latest deals | Shop for 500$ and get upt0 50% cashback | Offer closes soon | Hurry!ORDER NOW</marquee>
+<br><br><br>
+<div class="cong">
+
+  <marquee class="bolbona" scrollamount="10"><br><br><br><br><br>
+    <br><br>
+
+    <p>End of season sale| Starting just at 50$|Deals on top brands| Free delivery on first order</p>
+    
+     </marquee>
+
+</div>
+
+<h3>Electronics</h3>
+
+<br><hr><br>
+
+<div class="container">
+
+<div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/61uUuRZ8yuL.SX466.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Fire-Boltt Ring 3 Smart Watch </h5>
+<p class="card-text">99.99$</p>
+<p class="card-text1">5% off</p>
+      <a href="#" class="btn btn-primary">purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/410pD8MNadL.SX300_SY300_QL70_FMwebp.jpg">
+    <div class="card-body">
+     <h5 class="card-title">boAt Airdrop Max</h5>
+<p class="card-text">23.99$</p>
+<p class="card-text1">free delivery by today</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/41TzH5xRkML.SX300_SY300_QL70_FMwebp.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Xiaomi Pad 6</h5>
+<p class="card-text">139.99$</p>
+<p class="card-text1">20% off</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/71tH69LXCML.SX679.jpg">
+    <div class="card-body">
+      <h5 class="card-title">beatXP Vega 1.43</h5>
+<p class="card-text">15.99$</p>
+<p class="card-text1">free delivery today</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/31qIG2yA+iL.SY300_SX300.jpg">
+    <div class="card-body">
+      <h5 class="card-title">DJI OSMO Mobile SE Intelligent Gimbal </h5>
+<p class="card-text">27.99$</p>
+<p class="card-text1">15% off</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/710NRdecQtL.SX679.jpg">
+    <div class="card-body">
+      <h5 class="card-title">ASUS TUF Gaming F15</h5>
+<p class="card-text">155.99$</p>
+<p class="card-text1">upto 10% off</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/61LlQRdDZ2L.SX466.jpg">
+    <div class="card-body">
+    <h5 class="card-title">Boult Audio Z40</h5>
+<p class="card-text">12.99$</p>
+<p class="card-text1">10% off</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/81rSXU0Z6OL.SX679.jpg">
+    <div class="card-body">
+        <h5 class="card-title">LG Full HD IPS Monitor</h5>
+<p class="card-text">99.99$</p>
+<p class="card-text1">25% 0ff</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/television/p/f/i/-original-imagrfdksfcq2vvz.jpeg?q=70">
+    <div class="card-body">
+     <h5 class="card-title">Sansui 178 cm (70 inch) Ultra HD (4K) LED Smart Android TV with Hands Free Voice Command  (JSW70ASUHDFF)
+    </h5>
+<p class="card-text">300$</p>
+<p class="card-text1">25% 0ff</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/31+bdAv8-0L.SX300_SY300.jpg">
+    <div class="card-body">
+      <h5 class="card-title">Samsung T7</h5>
+<p class="card-text">99.99$</p>
+<p class="card-text1">Free Delivery</p>
+      <a href="#" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="https://m.media-amazon.com/images/I/71kDCavI6JS.SX679.jpg">
+    <div class="card-body">
+        <h5 class="card-title">ASUS Vivo AiO V222</h5>
+<p class="card-text">145.99$</p>
+<p class="card-text1">Free delivery upto today</p>
+      <a href="purchase.html" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+
+  
+  <div class="card" style="width: 18rem;">
+    <img src="https://rukminim2.flixcart.com/image/416/416/xif0q/computer/y/l/p/-original-imagqmqjv5cyvbup.jpeg?q=70">
+    <div class="card-body">
+        <h5 class="card-title">Acer Extensa (2023) Ryzen 5 Quad Core 7520U - (8 GB/512 GB SSD/Windows 11 Home) EX215-23 Notebook  (15.6 Inch, Steel Gray, 1.78 Kg)</h5>
+<p class="card-text">145.99$</p>
+<p class="card-text1">Free delivery upto today</p>
+      <a href="purchase.html" class="btn btn-primary">Purchase</a>
+      <a href="cart.html" class="btn btn-primary">Add to Cart</a>
+    </div>
+  </div>
+  </div>
+
+<br><br><br>
+<div class="left">
+  
+</div>
+
+
+
+
+
+<br><br><hr><br><br>
+
+
+
+<h4>Men's Accessories and Footwear</h4>
+<p>
+  when it comes to fashion no one knows how to help you gain the upper hand in style better than us.Shop our online collection of categories for men and pick out categories for yourself or your other half..Our accesorries collection includes items such as men's wallet,cufflinks,bags for men,and more.So don't waste your time and get some accessories today. 
+</p>
+<h4>Home utilities and essentials</h4>
+<p>
+  It's always a good idea to switch up your home's style every now and then -it keeps things fresh and also allows you to try out new trends.But ofcourse you never want to spend more money than you have to..Thats where we come in.We got amazing prices on all kinds of home furnishing items like beedsheets ,curtains,cushions,and more.Plus we have a constantly rotating selection of best home decor items so you can always stay on top of latest trends.So be sure to check out our home decor selection today.
+</p>
+<h4>Electronic and Accessories</h4>
+<p>
+  We give you access to huge selection of gadgets and essentials for your electronic devices.Here you will find everything from chargers and headphones to data cables and even external battery packs.Every month,we offer different sales and discounts on products,allowing you to save on your favourite essentials.Here you can find the perfect gift for everyone on your list without breking your budget. 
+</p>
+<h4>Health, Fitness and SPORTS</h4>
+<P>We know how important it is to take care of your health and keep yourself fit.We have everything you need to start your journey toward fitness.At our store,you will find a wide variety of fitness equipment at every affordable price.We have everything you need to get started with your home workouts,including dumbell sets,exercise brands,exercise mats,skipping ropes,sport kinds and more.</P>
+<h4>Office Supplies and Stationaries</h4>
+<p> We have a wide range of stationary items which will help you stay tidy and organised.You can buy notebooks,diaries,and notepads and craft supplies which are great for school and college or you can buy office supplies which are great for adults.We have a variety of pens ,pencils, and other stationary supplies to ensure you have what you need to write down your thoughts,make lists and so much more.</p>
+<h4>Accesories,Jewellery and Footwear</h4>
+<p>
+You may have your favourite outfit picked out but accessories can really add a sense of style and individuality that make you stand out!With so many types of accessories available,it can be difficult to find the perfect piece for youself.Fortunately, we have a wide variety of jewellery sets,handbags,belts,heels,casual footwear,watches,etc.With so many options,you will be able to find the perfect accessories for your outfit.
+</p> 
+<h4>Affordable and Top Quality Beauty Products</h4> 
+<p>
+With so many different cosmetic brands,products,and items to choose from,it acn be overwhelming when trying to find the right makeup for you.Sometimes it's nice to try out new products,but if you buy bad quality makeups that breaks you out,it's not very cost effective.We are only concerned with the best products.We only stock up on the best makeup and skincare that won't damage your skin or make you break out.We have everything from foundations,makeup removers,concealers to primer,mascara,eye shadow,and lipstick.
+</p>
+
+
+
+
+
+
+
+
+
+
+<div class="footer">
+
+<div class="about"><p>contact us</p>
+<p>about us</p>
+<p>stories</p>
+</div>
+<div class="help">
+  <p>payments</p>
+  <p>shipping</p>
+  <p>cancelletion and returns</p>
+  <p>FAQ</p>
+</div>
+<div class="consumer">
+  <p>return policy</p>
+  <p>privacy</p>
+  <p>terms of service</p>
+  <p>security</p>
+</div>
+<div class="social">
+  <p>facebook</p>
+  <p>twitter</p>
+  <p>instagram</p>
+</div>
+</div>
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
